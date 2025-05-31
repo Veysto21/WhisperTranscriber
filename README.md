@@ -20,6 +20,9 @@ WhisperTranscriber/
 
 ├── README.md # You're reading it
 
+├── .gitignore
+
+├── transcribe_whisper.py
 ---
 
 ## 🛠 Requirements
