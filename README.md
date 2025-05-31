@@ -27,6 +27,7 @@ WhisperTranscriber/
 You will probably have to change your path in 'transcribe_whisper.py' from maybe "E:" to "C:" possibly? (depending on where you place it)
 
 #input_path = f"E:/WhisperTranscriber/audio/{input_path}"
+
 #output_folder = "E:/WhisperTranscriber/transcripts"
 
 
