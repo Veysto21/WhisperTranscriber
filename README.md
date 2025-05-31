@@ -23,6 +23,8 @@ WhisperTranscriber/
 ├── .gitignore
 
 ├── transcribe_whisper.py
+
+
 ---
 
 ## 🛠 Requirements
