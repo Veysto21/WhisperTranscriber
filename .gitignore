@@ -1,0 +1,12 @@
+# Ignore audio and transcript folders
+audio/
+transcripts/
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.pyc
+
+# Ignore environment and IDE settings (optional)
+.env
+.vscode/
+.idea/
