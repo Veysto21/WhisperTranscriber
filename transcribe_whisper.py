@@ -7,7 +7,8 @@ os.environ["PATH"] += os.pathsep + r"E:\ffmpeg\ffmpeg-7.1.1-full_build-shared\bi
 import whisper
 
 # Input/output paths
-input_path = "E:/WhisperTranscriber/audio/08 Of Course.wma"
+input_path = input("Enter the filename (e.g., Stairway_To_Heaven.wav)and make sure it's in the 'audio' folder: ")
+input_path = f"E:/WhisperTranscriber/audio/{input_path}"
 output_folder = "E:/WhisperTranscriber/transcripts"
 base_name = os.path.splitext(os.path.basename(input_path))[0]
 output_file = os.path.join(output_folder, base_name + ".txt")
