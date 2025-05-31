@@ -9,9 +9,13 @@ This tool supports common formats like `.mp3`, `.wav`, `.wma`, `.m4a`, and more 
 ## 📁 Project Structure
 
 WhisperTranscriber/
+
 ├── audio/ # Place your audio files here
+
 ├── transcripts/ # Transcripts are saved here as .txt
+
 ├── transcribe_whisper.py # Main transcription script
+
 ├── README.md # You're reading it
 
 ---
