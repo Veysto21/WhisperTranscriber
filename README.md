@@ -16,6 +16,8 @@ WhisperTranscriber/
 
 ├── transcribe_whisper.py # Main transcription script
 
+├── whisper_model_cache #local folder where Whisper stores downloaded model files, such as: base.en.pt, medium.en.pt, large.pt
+
 ├── README.md # You're reading it
 
 ---
